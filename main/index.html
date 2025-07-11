@@ -899,7 +899,7 @@ Can pre-event students be allowed to participate in other events?
                     <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Whom to contact
                             in case of any query?</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion-content">
-                        <p>The query can be solved either by the integrated website chatbot or you can contact any of
+                        <p>The query can be solved by contacting any of
                             the tech board members listed on the website.</p>
                     </div>
                 </div>
@@ -1127,23 +1127,7 @@ Can pre-event students be allowed to participate in other events?
     <script src="./js/jquery.js" type="text/javascript">
     </script>
     <script src="./js/script.js" type="text/javascript"></script>
-    <script>
-        (function (d, t) {
-            var BASE_URL = "https://app.chatwoot.com";
-            var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src = BASE_URL + "/packs/js/sdk.js";
-            g.defer = true;
-            g.async = true;
-            s.parentNode.insertBefore(g, s);
-            g.onload = function () {
-                window.chatwootSDK.run({
-                    websiteToken: 'Ycw6NfYuMESP9bU2WamQ1DxX',
-                    baseUrl: BASE_URL
-                })
-            }
-        })(document, "script");
-    </script>
+
     <style>
         @media screen and (min-width: 1200px) {
 
