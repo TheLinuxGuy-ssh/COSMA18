@@ -4240,6 +4240,9 @@
   .map__section {
     padding: 0 4vw !important;
   }
+  .team .row {
+    flex-direction: column !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
