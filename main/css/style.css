@@ -4425,8 +4425,8 @@
   color: #fff;
   background-color: #eeeeee41;
   font-weight: 100;
-  font-size: 1.6vh;
-  padding: 1vh;
+  font-size: 1vw;
+  padding: 0.5vh 1vh;
   border-radius: 10px;
   z-index: 10000;
   position: absolute;
